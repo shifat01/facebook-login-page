@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 40px;
+}
+
+.left {
+  flex: 1;
+  margin-right: 50px;
+  margin-left: 140px;
+}
+
+.left h1 {
+  color: #1877f2;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.left p {
+  font-size: 28px;
+  color: #1c1e21;
+  margin-top: 10px;
+  line-height: 36px;
+}
+
+.right {
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
+  margin-right: 140px;
+}
+.login-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  background: #1877f2;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #166fe5;
+}
+
+.forgot {
+  display: block;
+  margin: 15px 0;
+  color: #1877f2;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 1px;
+  background: #ddd;
+}
+
+.create-btn {
+  background: #42b72a;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background: #36a420;
+}
+
+.create-page {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #1c1e21;
+}
+.create-page a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+.create-page a:hover {
+  text-decoration: underline;
+}
